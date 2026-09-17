@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BORED ZONE 😂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-circle circle1"></div>
+    <div class="bg-circle circle2"></div>
+    <div class="bg-circle circle3"></div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">😂 BORED ZONE</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#fun">Fun</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="emoji">😩</div>
+
+            <h1>BORED?</h1>
+
+            <h2>
+                LET'S DO SOMETHING
+                <span>FUN!</span>
+            </h2>
+
+            <p>
+                Welcome to the ultimate time-pass zone.
+                Pick something random and have some fun!
+            </p>
+
+            <button class="main-btn" onclick="randomFun()">
+                🎲 ENTERTAIN ME!
+            </button>
+
+            <div id="randomResult" class="random-result"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FUN SECTION -->
+    <section class="fun-section" id="fun">
+
+        <h2 class="section-title">
+            🎮 PICK YOUR FUN
+        </h2>
+
+        <p class="section-subtitle">
+            Choose anything. There are no serious decisions here 😂
+        </p>
+
+
+        <div class="fun-grid">
+
+            <!-- Joke -->
+            <div class="fun-card" onclick="showJoke()">
+                <div class="card-icon">😂</div>
+                <h3>Random Joke</h3>
+                <p>Need a quick laugh?</p>
+                <button>MAKE ME LAUGH</button>
+            </div>
+
+
+            <!-- Roast -->
+            <div class="fun-card" onclick="showRoast()">
+                <div class="card-icon">😈</div>
+                <h3>Roast Me</h3>
+                <p>Ready to get roasted?</p>
+                <button>ROAST ME</button>
+            </div>
+
+
+            <!-- Challenge -->
+            <div class="fun-card" onclick="showChallenge()">
+                <div class="card-icon">🎲</div>
+                <h3>Random Challenge</h3>
+                <p>Do something crazy.</p>
+                <button>GIVE CHALLENGE</button>
+            </div>
+
+
+            <!-- Love -->
+            <div class="fun-card" onclick="showLove()">
+                <div class="card-icon">💘</div>
+                <h3>Love Calculator</h3>
+                <p>Let's test your chemistry.</p>
+                <button>CHECK LOVE</button>
+            </div>
+
+
+            <!-- Coin -->
+            <div class="fun-card" onclick="coinFlip()">
+                <div class="card-icon">🪙</div>
+                <h3>Coin Flip</h3>
+                <p>Can't make a decision?</p>
+                <button>FLIP IT</button>
+            </div>
+
+
+            <!-- Magic 8 -->
+            <div class="fun-card" onclick="magicBall()">
+                <div class="card-icon">🎱</div>
+                <h3>Magic 8 Ball</h3>
+                <p>Ask the universe.</p>
+                <button>ASK</button>
+            </div>
+
+
+            <!-- Would You Rather -->
+            <div class="fun-card" onclick="wouldYouRather()">
+                <div class="card-icon">🤔</div>
+                <h3>Would You Rather?</h3>
+                <p>Impossible choices.</p>
+                <button>ASK ME</button>
+            </div>
+
+
+            <!-- Truth Dare -->
+            <div class="fun-card" onclick="truthDare()">
+                <div class="card-icon">🔥</div>
+                <h3>Truth or Dare</h3>
+                <p>Don't chicken out!</p>
+                <button>START</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESULT POPUP -->
+
+    <div id="popup" class="popup">
+
+        <div class="popup-box">
+
+            <button class="close-btn" onclick="closePopup()">
+                ✕
+            </button>
+
+            <div id="popupEmoji" class="popup-emoji">
+                😂
+            </div>
+
+            <h2 id="popupTitle">
+                FUN
+            </h2>
+
+            <p id="popupText">
+                Your result will appear here.
+            </p>
+
+            <button class="again-btn" onclick="again()">
+                🔄 AGAIN
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <h2>😂 WHAT IS BORED ZONE?</h2>
+
+        <p>
+            A simple place to escape boredom.
+            Play games, get random challenges,
+            laugh at jokes and waste some time!
+        </p>
+
+        <div class="stats">
+
+            <div>
+                <strong>∞</strong>
+                <span>Fun</span>
+            </div>
+
+            <div>
+                <strong>24/7</strong>
+                <span>Time Pass</span>
+            </div>
+
+            <div>
+                <strong>😂</strong>
+                <span>No Seriousness</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            😂 BORED ZONE — LIFE IS TOO SHORT TO BE BORING
+        </p>
+
+        <p>
+            Made for Time Pass ❤️
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
