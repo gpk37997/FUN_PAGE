@@ -21,7 +21,9 @@ const jokes = [
 
     "My wallet is like an onion. Opening it makes me cry. 😭",
 
-    "Why don't eggs tell jokes? They might crack up. 🥚😂"
+    "Why don't eggs tell jokes? They might crack up. 🥚😂",
+   
+   " I told my doctor that I broke my arm in two places, so he told me to stop going to those places"
 
 ];
 
